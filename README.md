@@ -1,4 +1,5 @@
-## Esri Dev Summit 2018 - Developing a Web AppBuilder Widget with React and Webpack
+# Esri Dev Summit 2018
+## Developing a Web AppBuilder Widget with React and Webpack
 
 Built with [Gatsby JS](https://www.gatsbyjs.org/) [starter-deck template](https://github.com/fabe/gatsby-starter-deck)
 
