@@ -3,7 +3,7 @@
 
 Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck template](https://github.com/fabe/gatsby-starter-deck)
 
-## Slides
+### Slides
 - OS Credit/Thanks
 - WAB architecture
 - Gulp
@@ -11,6 +11,7 @@ Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck tem
 - Widget as React component
 - Widget's `this`
 - JS API
+- Secured Services
 - Extras
   - ES6
   - Jest
