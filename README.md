@@ -8,15 +8,14 @@ Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck tem
 - OSS Thanks
 - WAB architecture
 - Gulp
+- Babel
 - Webpack
 - Widget as React component
+- Testing
+- npm
 - Widget's `this`
 - JS API
 - Secured Services
-- Extras
-  - ES6
-  - Jest
-  - npm
 - Deploying
 - Known Issues
 - Links
