@@ -4,7 +4,8 @@
 Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck template](https://github.com/fabe/gatsby-starter-deck)
 
 ### Slides
-- OS Credit/Thanks
+- Intro
+- OSS Thanks
 - WAB architecture
 - Gulp
 - Webpack
