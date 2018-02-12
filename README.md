@@ -16,5 +16,6 @@ Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck tem
   - ES6
   - Jest
   - npm
+- Deploying
 - Known Issues
 - Links
