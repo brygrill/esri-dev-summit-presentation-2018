@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    name: `Fabian Schultz`,
-    title: `Gatsby Deck`,
-    date: `November 23, 2017`,
+    name: 'Bryan Grill',
+    title: 'WAB & React',
+    date: 'March 8, 2018',
   },
-  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-offline`],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-offline'],
 };

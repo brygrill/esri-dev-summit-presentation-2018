@@ -4,6 +4,7 @@ import Link, { navigateTo } from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import './index.css';
+import favicon from '../assets/favicon.ico';
 
 const Header = ({ name, title, date }) => (
   <header>
@@ -45,10 +46,12 @@ class TemplateWrapper extends Component {
     const { children, data } = this.props;
     return (
       <div>
-        <Helmet
-          title={`${data.site.siteMetadata.title} — ${data.site.siteMetadata
-            .name}`}
-        />
+        <Helmet>
+          <title>{`${data.site.siteMetadata.title} — ${
+            data.site.siteMetadata.name
+          }`}</title>
+          <link rel="shortcut icon" href={favicon}/>
+        </Helmet>
         <Header
           name={data.site.siteMetadata.name}
           title={data.site.siteMetadata.title}
