@@ -12,7 +12,9 @@
 
 body,
 html {
-  font-family: BlinkMacSystemFont;
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir,
+    'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
+    sans-serif;
   font-size: var(--base);
   -webkit-font-smoothing: antialiased;
   font-feature-settings: 'calt', 'liga', 'hist', 'onum', 'pnum';

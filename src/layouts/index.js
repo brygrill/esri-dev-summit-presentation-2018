@@ -47,10 +47,10 @@ class TemplateWrapper extends Component {
     return (
       <div>
         <Helmet>
-          <title>{`${data.site.siteMetadata.title} — ${
+          <title>{`${data.site.siteMetadata.title} | ${
             data.site.siteMetadata.name
           }`}</title>
-          <link rel="shortcut icon" href={favicon}/>
+          <link rel="shortcut icon" href={favicon} />
         </Helmet>
         <Header
           name={data.site.siteMetadata.name}

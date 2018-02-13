@@ -1,13 +1,15 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Code from '../components/Code';
+
+import widgetDir from '../assets/widget_directory.png';
+
+const style = {
+  padding: '1rem',
+};
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <h2>This slide is rendering itself</h2>
-    <p>
-      Using <code>babel-plugin-include</code>!
-    </p>
-    <Code>{include('4.js')}</Code>
+    <img src={widgetDir} alt="widget directory structure" className="image" style={style} />
+    <h1>Widget Directory Structure</h1>
   </div>
 );

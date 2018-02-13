@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     name: 'Bryan Grill',
+    org: 'EBA Engineering',
     title: 'WAB & React',
     date: 'March 8, 2018',
   },
