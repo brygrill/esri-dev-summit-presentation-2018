@@ -30,6 +30,7 @@
     "react/jsx-filename-extension": "off",
     "react/prefer-stateless-function": "off",
     "react/forbid-prop-types": "off",
-    "react/sort-comp": "off"
+    "react/sort-comp": "off",
+    "import/no-extraneous-dependencies": "off"
   }
 }
