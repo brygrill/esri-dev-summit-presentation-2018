@@ -1,11 +1,15 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import widgetDir from '../assets/widget_directory.png';
+
+const style = {
+  maxHeight: '350px',
+};
+
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <img src="https://i.imgur.com/PnbINJ6.gif" alt="Monkey" />
-    <p>
-      Star it on <a href="//github.com/fabe/gatsby-deck">GitHub</a> 🌟
-    </p>
+    <img src={widgetDir} alt="wab directory" className="image" style={style} />
+    <h1>Widget as React component</h1>
   </div>
 );

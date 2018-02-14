@@ -85,9 +85,9 @@ code {
   font-size: 90%;
 }
 
-a:hover {
+/* a:hover {
   color: var(--accent);
-}
+} */
 
 h1 {
   font-size: 3rem;
@@ -150,6 +150,88 @@ header span {
   text-align: center;
 }
 
-image {
-  max-width: 150px;
+/* Via Tachyons */
+.dib {
+  display: inline-block;
+}
+
+.fw7 {
+  font-weight: 700;
+}
+
+.lh-copy {
+  line-height: 1.5;
+}
+
+.black {
+  color: #000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.hover-bg-light-blue:hover {
+  background-color: #76c4e2;
+}
+
+.hover-bg-light-blue:focus {
+  background-color: #76c4e2;
+}
+
+.pa2 {
+  padding: .5rem;
+}
+
+.pa4 {
+  padding: 2rem;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.f4 {
+  font-size: 1.25rem;
+}
+
+.bg-animate, .bg-animate:hover, .bg-animate:focus {
+  transition: background-color .15s ease-in-out;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.pa3 {
+  padding: 1rem;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
+.pv3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.measure {
+  max-width: 30em;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -6,10 +6,10 @@ import Helmet from 'react-helmet';
 import './index.css';
 import favicon from '../assets/favicon.ico';
 
-const Header = ({ name, title, date }) => (
+const Header = ({ name, org, title, date }) => (
   <header>
     <Link to="/1">
-      <span>{name}</span> — {title}
+      <span>{`${name} | ${org}`}</span> — {title}
     </Link>
     <time>{date}</time>
   </header>
@@ -54,6 +54,7 @@ class TemplateWrapper extends Component {
         </Helmet>
         <Header
           name={data.site.siteMetadata.name}
+          org={data.site.siteMetadata.org}
           title={data.site.siteMetadata.title}
           date={data.site.siteMetadata.date}
         />
@@ -77,6 +78,7 @@ export const pageQuery = graphql`
         name
         title
         date
+        org
       }
     }
     allSitePage {
