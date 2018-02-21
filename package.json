@@ -11,7 +11,8 @@
     "gatsby-plugin-offline": "^1.0.10",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "history": "^4.7.2",
-    "react-transition-group": "^2.2.1"
+    "react-transition-group": "^2.2.1",
+    "serve": "^6.4.11"
   },
   "keywords": [
     "gatsby"
@@ -19,6 +20,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "deploy": "now -n wab-react",
+    "start": "serve public/",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
