@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import widgetDir from '../assets/widget_directory.png';
+import reactSvg from '../assets/react.svg';
 
 const style = {
   maxHeight: '350px',
@@ -9,7 +9,7 @@ const style = {
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <img src={widgetDir} alt="wab directory" className="image" style={style} />
-    <h1>WAB App</h1>
+    <img src={reactSvg} alt="React logo" className="image" style={style} />
+    <h1>Using React in WAB</h1>
   </div>
 );
