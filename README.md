@@ -5,17 +5,15 @@ Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck tem
 
 ### Slides
 - Intro
-- OSS Thanks
-- WAB architecture
-- Gulp
-- Babel
+- Credit/Thanks
+- Build Pipeline
+- Using React in WAB
 - Webpack
-- Widget as React component
-- Testing
-- npm
-- Widget's `this`
-- JS API
-- Secured Services
-- Deploying
-- Known Issues
+- Widget.js
+- Accessing Props
+- Extras
 - Links
+
+### Links
+- [wab-react repo]() TODO
+- [talk outline](https://github.com/brygrill/esri-dev-summit-presentation-2018/wiki)
