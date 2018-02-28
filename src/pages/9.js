@@ -16,13 +16,13 @@ export default ({ transition }) => (
     <ul className="list pl0 measure center">
       <li>
         <NewTab
-          link="https://github.com/brygrill"
-          content="WAB React Repo"
+          link="https://github.com/brygrill/wab-react-webpack"
+          content="WAB React Webpack Template Repo"
         />
       </li>
       <li>
         <NewTab
-          link="https://github.com/brygrill"
+          link="https://github.com/brygrill/esri-dev-summit-presentation-2018"
           content="Presentation Repo"
         />
       </li>
@@ -30,18 +30,6 @@ export default ({ transition }) => (
         <NewTab
           link="http://www.ebaengineering.com/"
           content="EBA Engineering"
-        />
-      </li>
-      <li>
-        <NewTab
-          link="https://twitter.com/brygrill"
-          content="Twitter - @brygrill"
-        />
-      </li>
-      <li>
-        <NewTab
-          link="https://github.com/brygrill"
-          content="Github - brygrill"
         />
       </li>
     </ul>
