@@ -5,7 +5,8 @@ Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck tem
 
 ### Slides
 - Intro
-- Credit/Thanks
+- Is it possible?
+- JS Modules
 - Build Pipeline
 - Using React in WAB
 - Webpack
