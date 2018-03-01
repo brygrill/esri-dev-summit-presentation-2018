@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import agolAuth from '../assets/agol_auth.png';
+import wab from '../assets/wab.png';
 
 const style = {
   maxHeight: '350px',
@@ -9,7 +9,7 @@ const style = {
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <img src={agolAuth} alt="agol auth login" className="image" style={style} />
-    <h1>Accessing Props</h1>
+    <img src={wab} alt="wab logo" className="image" style={style} />
+    <h1>Widget.js</h1>
   </div>
 );

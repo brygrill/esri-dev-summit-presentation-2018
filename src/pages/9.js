@@ -1,37 +1,21 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import NewTab from '../components/NewTab';
-
-import eba from '../assets/eba.png';
+import jest from '../assets/jest.svg';
+import npm from '../assets/npm.svg';
 
 const style = {
-  maxWidth: '350px',
+  maxWidth: '300px',
+  maxHeight: '300px',
+  padding: '1rem',
 };
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <img src={eba} alt="EBA logo" className="image" style={style} />
-    <h1>Links</h1>
-    <ul className="list pl0 measure center">
-      <li>
-        <NewTab
-          link="https://github.com/brygrill/wab-react-webpack"
-          content="WAB React Webpack Template Repo"
-        />
-      </li>
-      <li>
-        <NewTab
-          link="https://github.com/brygrill/esri-dev-summit-presentation-2018"
-          content="Presentation Repo"
-        />
-      </li>
-      <li>
-        <NewTab
-          link="http://www.ebaengineering.com/"
-          content="EBA Engineering"
-        />
-      </li>
-    </ul>
+    <div className="flex-group">
+      <img src={npm} alt="npm logo" className="image" style={style} />
+      <img src={jest} alt="jest logo" className="image" style={style} />
+    </div>
+    <h1>Extras</h1>
   </div>
 );

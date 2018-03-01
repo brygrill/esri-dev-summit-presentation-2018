@@ -35,19 +35,18 @@ export default ({ transition }) => (
       />
       <img src={babelSvg} alt="babel logo" className="image" style={style} />
     </div>
-    <h1>Credits/Thanks</h1>
+    <h1>Is it possible?</h1>
     <ul className="list pl0 measure center">
-      <li className="f4 fw7 dib pa2 black">Built with OSS</li>
       <li>
         <NewTab
           link="https://developers.arcgis.com/javascript/latest/sample-code/widgets-frameworks-react/index.html"
-          content="Esri React/Widget example"
+          content="Can we use React? - Esri React/Widget example"
         />
       </li>
       <li>
         <NewTab
           link="https://github.com/react-bootstrap/react-bootstrap/blob/master/tools/build-dist.js"
-          content="React Bootstrap's webpack config"
+          content="Can we write ES6? - React Bootstrap's webpack config"
         />
       </li>
     </ul>
