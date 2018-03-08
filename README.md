@@ -17,4 +17,3 @@ Deck built with [Gatsby JS](https://www.gatsbyjs.org/) and the [starter-deck tem
 
 ### Links
 - [wab-react-webpack repo](https://github.com/brygrill/wab-react-webpack)
-- [talk outline](https://github.com/brygrill/esri-dev-summit-presentation-2018/wiki)
