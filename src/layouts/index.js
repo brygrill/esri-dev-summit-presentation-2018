@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Link, { navigateTo } from 'gatsby-link';
+import Link, { navigateTo, withPrefix } from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import './index.css';
@@ -8,7 +8,7 @@ import favicon from '../assets/favicon.ico';
 
 const Header = ({ name, org, title, date }) => (
   <header>
-    <Link to="/1">
+    <Link to={withPrefix('/1')}>
       <span>{`${name} | ${org}`}</span> — {title}
     </Link>
     <time>{date}</time>
@@ -35,9 +35,9 @@ class TemplateWrapper extends Component {
         } else if (keyCode === NEXT && now === slides.length) {
           return false;
         } else if (keyCode === NEXT) {
-          navigateTo(`/${now + 1}`);
+          navigateTo(withPrefix(`/${now + 1}`));
         } else if (keyCode === PREV) {
-          navigateTo(`/${now - 1}`);
+          navigateTo(withPrefix(`/${now - 1}`));
         }
       }
     });
